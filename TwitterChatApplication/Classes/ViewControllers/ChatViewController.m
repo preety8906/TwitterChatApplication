@@ -79,6 +79,7 @@
 
 -(void) addObservers
 {
+    // Keyboard notifications added.
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(keyboardWillShow:)
                                                  name:UIKeyboardWillShowNotification
